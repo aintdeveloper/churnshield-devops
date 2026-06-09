@@ -3,7 +3,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "ChurnShield is live — DevOps Pipeline Working"
+    return "ChurnShield is live — DevOps Pipeline Working and CI/CD Pipeline is also working !"
 
 @app.route('/health')
 def health():
